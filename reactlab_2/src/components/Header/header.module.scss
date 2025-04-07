@@ -1,0 +1,27 @@
+.header_comp{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    &_nav{
+        &_menu{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            &_item{
+                color: white;
+            }
+        }
+    }
+    &_socialMedia{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        gap: 40px;
+        &_item{
+            color: white;
+            font-size: 20px;
+        }
+    }
+}

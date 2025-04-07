@@ -6,6 +6,11 @@
 li{
   list-style-type: none;
 }
+button{
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
 :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
