@@ -11,7 +11,7 @@ import { NavLink } from "react-router-dom";
 
 const Header = () => {
   return <div className={styleHeader.header_comp}>
-    <NavLink className={styleHeader.header_comp_logo}><img src={headerLogo} alt="Logo" /></NavLink>
+    <NavLink className={styleHeader.header_comp_logo} to="/"><img src={headerLogo} alt="Logo" /></NavLink>
     <nav className={styleHeader.header_comp_nav}>
         <ul className={styleHeader.header_comp_nav_menu}>
             <li className={styleHeader.header_comp_nav_menu_item}><NavLink to="/">Home</NavLink></li>

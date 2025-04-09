@@ -26,7 +26,7 @@ const Slider = ({ allImageData }) => {
       <div className='slider_component_button_wrapper'>
         <button className='previousBtn' onClick={previousBtn}><FaArrowCircleLeft /></button>
         <button className='nextBtn' onClick={nextBtn}><FaArrowCircleRight /></button>
-      </div>
+      </div>  
     </div>
   );
 };
