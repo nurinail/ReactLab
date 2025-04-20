@@ -5,4 +5,9 @@
 }
 button{
   border: none;
+  transition: all 0.7s;
+}
+button:hover{
+  transform: scale(1.1);
+  opacity: 0.8;
 }
