@@ -1,0 +1,46 @@
+.fruits{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    width: 250px;
+    padding: 10px;
+    height: 450px;
+    border-radius: 20px;
+    background-color: rgb(234, 234, 234);
+   
+    &_changeBtns{
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        &_item{
+            width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: green;
+            color: rgb(255, 255, 255);
+        }
+    }
+    &_mainBtns{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        &_item{
+            width: 100%;
+            background-color: rgb(193, 189, 189);
+            text-align: center;
+            padding: 10px;
+            border-radius: 10px;
+            color: rgb(16, 12, 12);
+        }
+        &_itemActive{
+            width: 100%;
+            background-color: rgb(71, 186, 215);
+            padding: 10px;
+            border-radius: 10px;
+            color: rgb(0, 0, 0);
+        }
+    }
+}
